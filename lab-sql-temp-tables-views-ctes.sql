@@ -14,7 +14,6 @@ GROUP BY customer_id;
 
 SELECT * FROM bank.rental_information;
 
-DROP VIEW bank.rental_information;
 
 -- Step 2: Create a Temporary Table
 -- Next, create a Temporary Table that calculates the total amount paid by each customer (total_paid). 
